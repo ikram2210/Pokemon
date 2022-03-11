@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Pokedex</title>
+
+
+    <link rel="stylesheet" href="pokedex.css">
+
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="background-img">
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+
+                    <div id="pokedex">
+                        <h1>Pokedex</h1>
+
+                        <input type="text" name="nomPokemon" id="nomPokemon" >
+                        <button class ="recherche" onclick="pokemon()"><img src = "images\search.jpg" id = "search" alt ="image_recherche" ></button>
+                    </div>
+                    <div id="affiche">
+                        <img src=" "  id = "image" alt="image_pokemon" >
+                        <h2 id ="nom"></h2>
+                        <div id = "types"></div>
+                        <p id="poids"></p>
+                        <p id = "sonId"></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="pokedex.js"></script>
+</body>
+</html>
+
